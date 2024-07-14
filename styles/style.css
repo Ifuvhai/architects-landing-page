@@ -1,0 +1,37 @@
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+}
+.banner-section{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-section img{
+    width: 100%;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.btn-primary{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 144, 14);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
