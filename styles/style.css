@@ -37,6 +37,26 @@ nav>ul{
     border-radius: 3px;
     cursor: pointer;
 }
+.feature-section{
+    max-width: 60%;
+    margin: 50px auto;
+}
+.feature-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.feature-img img{
+    width: 200px;
+}
+.feature-content h3{
+    font-size: 30px;
+}
 
 /* media query */
 @media screen and (max-width: 776px) {
@@ -46,5 +66,12 @@ nav>ul{
     nav>ul{
         font-size: 14px;
         padding-right: 20px;
+    }
+    .feature-container{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .feature-img{
+        grid-template-columns:repeat(1, 1fr);
     }
 }
